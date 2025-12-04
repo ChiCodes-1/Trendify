@@ -1,0 +1,64 @@
+body {
+background: #f5f5f5;
+}
+
+
+.header {
+text-align: center;
+padding: 40px 20px;
+background: #111;
+color: white;
+}
+
+
+.trustees {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 40px 20px;
+gap: 30px;
+}
+
+
+.trustee-card {
+background: white;
+border-radius: 10px;
+padding: 20px;
+width: 280px;
+text-align: center;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.trustee-card:hover {
+transform: scale(1.04);
+box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+
+.trustee-card img {
+width: 120px;
+height: 120px;
+border-radius: 50%;
+object-fit: cover;
+border: 3px solid #ddd;
+}
+
+
+.trustee-card h3 {
+margin: 15px 0 5px;
+font-size: 1.2rem;
+}
+
+
+.trustee-card p {
+margin: 5px 0;
+}
+
+
+.bio {
+font-size: 0.9rem;
+color: #555;
+margin-top: 10px;
+}

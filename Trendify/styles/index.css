@@ -387,4 +387,26 @@ h4 {
     width: 100%;
     margin-bottom: 30px;
   }
+
+  .footer h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+
+  .footer {
+    background: #000;
+    background-color: #91704e;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+  }
 }
